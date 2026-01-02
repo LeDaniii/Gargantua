@@ -1,0 +1,41 @@
+# Name des Workflows (steht in GitHub Actions UI)
+name: CI
+
+on:
+  # Workflow läuft bei jedem Push auf main
+  push:
+    branches: [ main ]
+  # …und bei jedem PR, der auf main zielt
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  # Ein Job: baut und testet die ganze Solution
+  build-and-test:
+    # GitHub-Runner-VM: Ubuntu, billig und schnell
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1) Code aus dem Repo auschecken
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 2) .NET 10 SDK auf dem Runner installieren
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v5
+        with:
+          # 10.0.x = jeweils letzte Patch-Version von .NET 10
+          dotnet-version: |
+            10.0.x
+
+      # 3) NuGet-Pakete für die Solution wiederherstellen
+      - name: Restore
+        run: dotnet restore Gargantua.sln
+
+      # 4) Solution im Release-Mode bauen (ohne erneut zu restoren)
+      - name: Build
+        run: dotnet build Gargantua.sln --configuration Release --no-restore
+
+      # 5) Alle Tests der Solution ausführen (nutzt den Build von oben)
+      - name: Test
+        run: dotnet test Gargantua.sln --configuration Release --no-build --verbosity normal

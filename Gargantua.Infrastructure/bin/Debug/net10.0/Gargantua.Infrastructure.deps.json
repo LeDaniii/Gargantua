@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Gargantua.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Gargantua.Core": "1.0.0"
+        },
+        "runtime": {
+          "Gargantua.Infrastructure.dll": {}
+        }
+      },
+      "Gargantua.Core/1.0.0": {
+        "runtime": {
+          "Gargantua.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Gargantua.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Gargantua.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

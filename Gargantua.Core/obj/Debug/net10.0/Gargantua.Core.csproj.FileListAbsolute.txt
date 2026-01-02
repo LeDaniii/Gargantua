@@ -1,0 +1,12 @@
+C:\Users\dmatzer\Desktop\Sandbox\Project Gargantua\Gargantua\Gargantua.Core\bin\Debug\net10.0\Gargantua.Core.deps.json
+C:\Users\dmatzer\Desktop\Sandbox\Project Gargantua\Gargantua\Gargantua.Core\bin\Debug\net10.0\Gargantua.Core.dll
+C:\Users\dmatzer\Desktop\Sandbox\Project Gargantua\Gargantua\Gargantua.Core\bin\Debug\net10.0\Gargantua.Core.pdb
+C:\Users\dmatzer\Desktop\Sandbox\Project Gargantua\Gargantua\Gargantua.Core\obj\Debug\net10.0\Gargantua.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dmatzer\Desktop\Sandbox\Project Gargantua\Gargantua\Gargantua.Core\obj\Debug\net10.0\Gargantua.Core.AssemblyInfoInputs.cache
+C:\Users\dmatzer\Desktop\Sandbox\Project Gargantua\Gargantua\Gargantua.Core\obj\Debug\net10.0\Gargantua.Core.AssemblyInfo.cs
+C:\Users\dmatzer\Desktop\Sandbox\Project Gargantua\Gargantua\Gargantua.Core\obj\Debug\net10.0\Gargantua.Core.csproj.CoreCompileInputs.cache
+C:\Users\dmatzer\Desktop\Sandbox\Project Gargantua\Gargantua\Gargantua.Core\obj\Debug\net10.0\Gargantua.Core.sourcelink.json
+C:\Users\dmatzer\Desktop\Sandbox\Project Gargantua\Gargantua\Gargantua.Core\obj\Debug\net10.0\Gargantua.Core.dll
+C:\Users\dmatzer\Desktop\Sandbox\Project Gargantua\Gargantua\Gargantua.Core\obj\Debug\net10.0\refint\Gargantua.Core.dll
+C:\Users\dmatzer\Desktop\Sandbox\Project Gargantua\Gargantua\Gargantua.Core\obj\Debug\net10.0\Gargantua.Core.pdb
+C:\Users\dmatzer\Desktop\Sandbox\Project Gargantua\Gargantua\Gargantua.Core\obj\Debug\net10.0\ref\Gargantua.Core.dll
