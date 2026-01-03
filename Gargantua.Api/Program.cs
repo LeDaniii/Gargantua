@@ -1,4 +1,14 @@
+
+using Gargantua.Providers.Abstractions;
+using Gargantua.Providers.Simulation;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddSingleton<IPlcProvider>(serviceProvider =>
+{
+    // Erster simulierte PLC, Identifier frei wählbar
+    return new SimulationPlcProvider("SimPlc01");
+});
 
 // Add services to the container.
 

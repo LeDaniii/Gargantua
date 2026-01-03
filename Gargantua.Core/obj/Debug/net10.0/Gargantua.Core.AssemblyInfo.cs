@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gargantua.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c1d8882f8f45ee0b0b33f240d427fee034f0b4d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c098bba6c2db3bfe26ad2a83d46852b25bd8d200")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gargantua.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gargantua.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
