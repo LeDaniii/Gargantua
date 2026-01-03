@@ -1,0 +1,84 @@
+########################
+# Build artifacts (.NET)
+########################
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# VS Code (nur Workspace-Dateien behalten wenn du willst)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+########################
+# Test / Coverage
+########################
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+.coverage/
+coverage/
+*.codecoverage
+
+########################
+# NuGet / Paketcache
+########################
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nuspec
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+########################
+# Build-Ausgaben / Tools
+########################
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+*.dbmdl
+*.jfm
+
+########################
+# Rider / Resharper
+########################
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+########################
+# Sonstiges
+########################
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+
+# OS-spezifisch
+.DS_Store
+Thumbs.db
