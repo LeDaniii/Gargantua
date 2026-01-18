@@ -2,6 +2,8 @@
 using Gargantua.Providers.Abstractions;
 using Gargantua.Providers.Simulation;
 
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddSingleton<IPlcProvider>(serviceProvider =>

@@ -1,0 +1,6 @@
+@Gargantua.Host_HostAddress = http://localhost:5148
+
+GET {{Gargantua.Host_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
